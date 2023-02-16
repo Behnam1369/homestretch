@@ -13,14 +13,14 @@ export default function Footer() {
         <div>
           <div className={style.img}></div>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Aliquam sit blandit amet
-            turpis auctor urna a venenatis turpis.
+            HomeStretch aims to close the disparity gap in homeownership,
+            especially among people of color and younger generations
           </p>
         </div>
         <div>
           <h3>Company</h3>
-          <Link to="/about">About us</Link>
-          <Link to="/blog">Blog</Link>
+          <Link to="/about">About Us</Link>
+          <Link to="/contact">Contact Us</Link>
           <Link to="/career">Careers</Link>
           <Link to="/blog">Blog</Link>
           <Link to="/faq">FAQs</Link>
@@ -42,8 +42,10 @@ export default function Footer() {
         </div>
       </div>
       <div>
-        <p>© All rights reserved Home Stretch 2023</p>
-        <p> Terms of Use | Privacy Policy</p>
+        <p>All rights reserved.</p>
+        <p>Copyright</p>
+        <p>©</p>
+        <p>HomeStretch 2023</p>
       </div>
     </div>
   );
