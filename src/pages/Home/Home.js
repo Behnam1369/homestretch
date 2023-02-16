@@ -50,6 +50,24 @@ const defaultTestimonials = [
   },
 ];
 
+const news = [
+  {
+    photo: "https://i.ibb.co/C0QS3F7/Blog-post1.png",
+    title: "How to Buy a Home in the U.S. as a Non-U.S. Citizen",
+    url: "https://www.bankrate.com/real-estate/buying-a-home-as-a-non-resident/",
+  },
+  {
+    photo: "https://i.ibb.co/ZWpf6pN/Blog-post-2.png",
+    title: "What Factors Affect the Housing Market?",
+    url: "https://www.investopedia.com/articles/mortages-real-estate/11/factors-affecting-real-estate-market.asp",
+  },
+  {
+    photo: "https://i.ibb.co/3SvnL2g/Quick-guide-to-home-ownership.jpg",
+    title: "A quick Guide to Owning a Home as a First Time Buyer",
+    url: "https://www.investopedia.com/updates/first-time-home-buyer/",
+  },
+];
+
 export default function Home() {
   const [testimonial, setTestimonial] = useState(defaultTestimonials);
 
@@ -168,6 +186,23 @@ export default function Home() {
               onClick={() => setShowingIndex(i)}
             ></div>
           ))}
+        </div>
+      </section>
+      <section className={style.news}>
+        <div>
+          <h2>Latest News</h2>
+          <p>
+            Stay on top of the latest news and trends in first-time
+            homeownership
+          </p>
+          <div className={style.cards}>
+            {news.map((el) => (
+              <a href={el.url} className={style.card} key={el.photo}>
+                <img src={el.photo} alt={el.title} />
+                <h3>{el.title}</h3>
+              </a>
+            ))}
+          </div>
         </div>
       </section>
       <Footer />
