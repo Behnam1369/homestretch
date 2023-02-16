@@ -166,10 +166,12 @@ export default function ContentManagement() {
           id: result.content.id,
           title: result.content.title,
           thumbnail: result.content.thumbnail,
-          pages: result.pages.map((page, i) => {
-            if (i == 0) return { ...page, active: true };
-            return page;
-          }),
+          pages: result.pages
+            .sort((a, b) => a.id - b.id)
+            .map((page, i) => {
+              if (i == 0) return { ...page, active: true };
+              return page;
+            }),
         });
         setLoadingContent(false);
         setUploading(false);

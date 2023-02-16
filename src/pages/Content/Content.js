@@ -24,10 +24,12 @@ export default function Content() {
             id: result.content.id,
             title: result.content.title,
             thumbnail: result.content.thumbnail,
-            pages: result.pages.map((page, i) => {
-              if (i == 0) return { ...page, active: true, index: i };
-              return { ...page, active: false, index: i };
-            }),
+            pages: result.pages
+              .sort((a, b) => a.id - b.id)
+              .map((page, i) => {
+                if (i == 0) return { ...page, active: true, index: i };
+                return { ...page, active: false, index: i };
+              }),
           });
           setLoading(false);
         })
@@ -35,6 +37,7 @@ export default function Content() {
     };
     fetchContent();
   }, [id, token]);
+  console.log(content.pages);
 
   const handleNext = (e, index) => {
     e.preventDefault();
