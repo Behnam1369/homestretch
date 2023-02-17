@@ -20,7 +20,7 @@ const features = [
   {
     icon: "https://i.ibb.co/j3TX8Qf/Group-1.png",
     title: "Home Buying Resources",
-    text: "Homestretch provides first time home buyers with education materials to fill the knowledge gap on the home buying process.",
+    text: "HomeStretch provides a culmination of national and Florida-based resources aimed to eliminate barriers to homeownership for first-time homebuyers.",
   },
   {
     icon: "https://i.ibb.co/ZM1BYBY/Group-2.png",
@@ -103,8 +103,8 @@ export default function Home() {
       <Header inlineStyle={inlineStyle}>
         <h1 className={style.header_title}>Closing The Gap to Homeownership</h1>
         <p className={style.header_paragraph}>
-          Find that special home you won’t find anywhere else for you and your
-          family
+          Discover your dream home with guidance and ease - your journey starts
+          here!
         </p>
       </Header>
       <section className={style.features}>
@@ -120,7 +120,7 @@ export default function Home() {
         ))}
       </section>
       <section className={style.slogan}>
-        <h2>We are simplifying the homebuying process</h2>
+        <h2>Empowering first-time buyers to find their perfect home</h2>
       </section>
       <section className={style.content}>
         <img

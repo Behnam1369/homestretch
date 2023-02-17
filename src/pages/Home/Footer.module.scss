@@ -58,10 +58,11 @@
 
   > div:nth-child(2) {
     height: 100px;
+    gap: 10px;
     background-color: $main-color;
     align-items: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     color: white;
   }
 }
