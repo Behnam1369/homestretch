@@ -4,11 +4,10 @@ import Footer from "./Footer";
 import Header from "./Header";
 import style from "./Home.module.scss";
 const inlineStyle = {
-  backgroundImage: "url(https://i.ibb.co/YBg3Bmh/Home-page-1.png)",
+  backgroundImage:
+    "linear-gradient(0deg, #00000080, #00000080), url(https://i.ibb.co/w0nv1nn/Hero-section-image-min.png)",
   backgroundColor: "#0C3C69",
-  backgroundSize: "50% auto",
-  backgroundRepeat: "no-repeat",
-  backgroundPosition: "bottom right",
+  backgroundPosition: "0 -15vw",
 };
 
 const features = [
@@ -101,7 +100,9 @@ export default function Home() {
   return (
     <div className={style.main}>
       <Header inlineStyle={inlineStyle}>
-        <h1 className={style.header_title}>Closing The Gap to Homeownership</h1>
+        <h1 className={style.header_title}>
+          Closing The Gap to Home Ownership
+        </h1>
         <p className={style.header_paragraph}>
           Discover your dream home with guidance and ease - your journey starts
           here!

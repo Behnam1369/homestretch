@@ -4,22 +4,25 @@
   .header_title {
     color: White;
     padding: 0 5vw;
-    max-width: 45%;
+    text-align: center;
+    max-width: 750px;
     font-size: 4vw;
     font-family: Inter;
     font-weight: normal;
     margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .header_paragraph {
     color: White;
     width: 90%;
     max-width: 600px;
-    max-width: 45%;
+    text-align: center;
     font-size: 1.7vw;
-    padding: 0 5vw;
     font-family: Inter;
     margin-top: 10px;
+    margin: auto;
   }
 
   .features {
