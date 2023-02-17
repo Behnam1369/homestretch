@@ -37,7 +37,8 @@ export default function Confirmation() {
       {!confirming && (
         <h1>
           Congratulations! Your email address has been confirmed. You will be
-          redirected to the login page in {countDown} seconds.
+          redirected to the login page in {countDown >= 0 ? countDown : 0}{" "}
+          seconds.
         </h1>
       )}
       <img src="https://i.ibb.co/d0T7zsC/homestretch.png" alt="logo" />
