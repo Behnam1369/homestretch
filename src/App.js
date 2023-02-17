@@ -14,6 +14,7 @@ import Signup from "./pages/Signup/Signup";
 import OtherContent from "./pages/Content/OtherContent";
 import { updateUser } from "./redux/reducers/user";
 import PageNotFound from "./pages/PageNotFound/PageNotFound";
+import Contact from "./pages/Contact/Contact";
 
 function App() {
   const dispatch = useDispatch();
@@ -70,10 +71,7 @@ function App() {
         <Route path="/confirm_your_account" element={<ConfirmNeeded />} />
         <Route path="/blog" element={<OtherContent content_type="blog" />} />
         <Route path="/about" element={<OtherContent content_type="about" />} />
-        <Route
-          path="/contact"
-          element={<OtherContent content_type="contact" />}
-        />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/faq" element={<OtherContent content_type="faq" />} />
         <Route
           path="/career"
