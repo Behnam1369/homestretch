@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# HomeStretch
+HomeStretch is dedicated to helping first-time homebuyers navigate the homebuying process with ease. We understand that buying a home can be a daunting and overwhelming experience, which is why we are committed to providing comprehensive education and resources to help eliminate the barriers to homeownership.
+you can read more about the project at [https://www.joincolab.io/projects/homestretch-2](https://www.joincolab.io/projects/homestretch-2).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Check it out live
+Tou can visit the live version deployed on netlify: [https://homestretch.netlify.app/](https://homestretch.netlify.app/)
 
-## Available Scripts
+## screenshots
+![screenshot1](https://behnam1369.github.io/Portfolio/images/homestretch.png)
+![screenshot1](https://behnam1369.github.io/Portfolio/images/homestretch2.png)
+![screenshot1](https://behnam1369.github.io/Portfolio/images/homestretch3.png)
+![screenshot1](https://behnam1369.github.io/Portfolio/images/homestretch4.png)
 
-In the project directory, you can run:
 
-### `npm start`
+## Technologies
+For the development of this project, I have used React, and Redux. I also used Ruby on Rails for the development of the [backend project](https://github.com/Behnam1369/homestretch-api) and api endpoints. Some other tools like Git, Github, Figma, Postman, Trello, etc are also used in this project. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## HomeStretch Team 
 
-### `npm test`
+- Product Manager: [Krystal Muckle](https://www.linkedin.com/in/krystal-muckle/)
+- Designer: [Samuel Abah](https://www.linkedin.com/in/abahsamuel/)
+- Developer: [Behnam Aghaali](https://www.linkedin.com/in/behnam-aghaali/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Acknowledgments
+Special Thanks to [CoLab](https://www.joincolab.io/) for all the support and giving us this opportunity to work on this project. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Feel free to check the [issues page](../../issues/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Show your support
+Give a ⭐️ if you like this project!
